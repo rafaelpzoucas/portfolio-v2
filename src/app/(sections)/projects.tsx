@@ -6,7 +6,7 @@ import { ArrowRight } from 'lucide-react'
 
 export function Projects() {
   return (
-    <Section>
+    <Section id="projects">
       <H1 className="text-center">
         Conheça meu trabalho e os projetos que já desenvolvi até agora
       </H1>

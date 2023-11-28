@@ -2,9 +2,9 @@ import { Button } from '@/components/ui/button'
 import { H1, H3 } from '@/components/ui/headings'
 import { Section } from '@/components/ui/section'
 
-export function Footer() {
+export function Contact() {
   return (
-    <Section className="sm:h-screen sm:px-20">
+    <Section id="contact" className="sm:h-screen sm:px-20">
       <header className="flex flex-col gap-3 w-full">
         <H1>Vamos iniciar um projeto juntos?</H1>
         <p className="text-muted-foreground">

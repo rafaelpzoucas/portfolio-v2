@@ -9,7 +9,7 @@ import { Section } from '@/components/ui/section'
 
 export function FAQ() {
   return (
-    <Section>
+    <Section id="faq">
       <H1 className="text-center">Perguntas frequentes</H1>
 
       <div className="w-full">

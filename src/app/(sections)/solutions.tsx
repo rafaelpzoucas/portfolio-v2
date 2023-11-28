@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react'
 
 export function Solutions() {
   return (
-    <Section>
+    <Section id="solutions">
       <H1 className="text-center">Soluções para o seu negócio</H1>
 
       <section className="space-y-10 sm:space-y-16">

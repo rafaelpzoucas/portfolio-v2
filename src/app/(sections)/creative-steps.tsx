@@ -3,7 +3,7 @@ import { Section } from '@/components/ui/section'
 
 export function CreativeSteps() {
   return (
-    <Section>
+    <Section id="creative-steps">
       <H1 className="text-center">Etapas do processo de criação</H1>
 
       <section className="space-y-10 sm:space-y-16">

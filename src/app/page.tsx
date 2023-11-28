@@ -1,10 +1,10 @@
+import { Contact } from './(sections)/contact'
+import { CreativeSteps } from './(sections)/creative-steps'
+import { FAQ } from './(sections)/faq'
+import { Home } from './(sections)/home'
+import { Projects } from './(sections)/projects'
+import { Solutions } from './(sections)/solutions'
 import { Aside } from './aside'
-import { CreativeSteps } from './creative-steps'
-import { FAQ } from './faq'
-import { Footer } from './footer'
-import { Home } from './home'
-import { Projects } from './projects'
-import { Solutions } from './solutions'
 
 export default function HomePage() {
   return (
@@ -16,8 +16,8 @@ export default function HomePage() {
         <Projects />
         <Solutions />
         <CreativeSteps />
+        <Contact />
         <FAQ />
-        <Footer />
       </section>
     </main>
   )

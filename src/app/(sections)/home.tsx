@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react'
 
 export function Home() {
   return (
-    <Section className="sm:min-h-screen">
+    <Section id="home" className="sm:min-h-screen">
       <div className="relative w-full max-w-xl space-y-8">
         <div className="absolute -z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] max-w-full aspect-square rounded-full blur-3xl opacity-20 bg-gradient-to-r from-violet-500 to-sky-500" />
         <H1 className="text-center">
