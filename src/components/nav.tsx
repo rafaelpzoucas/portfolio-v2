@@ -33,7 +33,6 @@ export function Nav() {
 
   function handleScroll() {
     const scrollPosition = window.scrollY
-    const offset = window.innerHeight * (3 / 4)
     const projectsPosition = document.getElementById('projects')?.offsetTop
     const solutionsPosition = document.getElementById('solutions')?.offsetTop
     const creativeStepsPosition =
@@ -51,19 +50,19 @@ export function Nav() {
       if (scrollPosition < projectsPosition) {
         setHash('')
       }
-      if (scrollPosition > projectsPosition - offset) {
+      if (scrollPosition > projectsPosition - 500) {
         setHash('projects')
       }
-      if (scrollPosition > solutionsPosition - offset) {
+      if (scrollPosition > solutionsPosition - 500) {
         setHash('solutions')
       }
-      if (scrollPosition > creativeStepsPosition - offset) {
+      if (scrollPosition > creativeStepsPosition - 500) {
         setHash('creative-steps')
       }
-      if (scrollPosition > contactPosition - offset) {
+      if (scrollPosition > contactPosition - 500) {
         setHash('contact')
       }
-      if (scrollPosition > faqPosition - offset) {
+      if (scrollPosition > faqPosition - 500) {
         setHash('faq')
       }
     }
