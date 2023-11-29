@@ -79,7 +79,7 @@ export function Nav() {
   }, [])
   return (
     <nav>
-      <ul className="hidden sm:flex flex-col space-y-4 w-fit overflow-hidden">
+      <ul className="hidden md:flex flex-col space-y-4 w-fit overflow-hidden">
         {navigation.map((nav) => (
           <Link key={nav.link} href={`#${nav.link}`}>
             <li

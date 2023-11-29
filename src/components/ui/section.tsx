@@ -14,7 +14,7 @@ const Section = React.forwardRef<HTMLDivElement, SectionProps>(
       <Comp
         id={id}
         className={cn(
-          'flex flex-col items-center justify-center px-8 sm:px-0 py-16 sm:py-20 space-y-16 w-full',
+          'flex flex-col items-center justify-center px-4 sm:px-0 py-16 sm:py-20 space-y-16 w-full',
           className,
         )}
         ref={ref}

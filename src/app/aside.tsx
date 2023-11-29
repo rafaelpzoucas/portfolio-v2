@@ -3,14 +3,14 @@
 import { Button } from '@/components/ui/button'
 import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
-import { FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 
 import { Nav } from '@/components/nav'
 
 export function Aside() {
   return (
-    <aside className="sm:sticky top-0 flex flex-col sm:justify-between px-8 sm:px-0 py-14 sm:py-20 w-full sm:max-w-xs sm:h-screen select-none">
-      <div className="space-y-10">
+    <aside className="md:sticky top-0 flex flex-col md:justify-between px-4 md:px-0 py-14 pb-4 md:py-20 w-full md:max-w-xs md:h-screen select-none">
+      <div className="space-y-4">
         <header className="space-y-1">
           <h1 className="text-3xl font-bold">Rafael Zoucas</h1>
           <h3 className="text-lg">Software Engineer</h3>
@@ -28,15 +28,21 @@ export function Aside() {
       </div>
 
       <section className="flex flex-row gap-2 mt-4">
-        <Button variant="secondary" size="icon" className="text-lg">
-          <FaWhatsapp />
-        </Button>
-        <Button variant="secondary" size="icon" className="text-lg">
-          <FaLinkedin />
-        </Button>
-        <Button variant="secondary" size="icon" className="text-lg">
-          <FaInstagram />
-        </Button>
+        <Link href=" https://wa.me/5518998261736" target="_blank">
+          <Button variant="secondary" size="icon" className="text-lg">
+            <FaWhatsapp />
+          </Button>
+        </Link>
+        <Link href="https://www.linkedin.com/in/rafaelpzoucas/" target="_blank">
+          <Button variant="secondary" size="icon" className="text-lg">
+            <FaLinkedin />
+          </Button>
+        </Link>
+        <Link href="https://github.com/rafaelpzoucas" target="_blank">
+          <Button variant="secondary" size="icon" className="text-lg">
+            <FaGithub />
+          </Button>
+        </Link>
       </section>
     </aside>
   )

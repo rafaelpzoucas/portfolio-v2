@@ -7,13 +7,11 @@ import { ArrowRight } from 'lucide-react'
 export function Projects() {
   return (
     <Section id="projects">
-      <H1 className="text-center">
-        Conheça meu trabalho e os projetos que já desenvolvi até agora
-      </H1>
+      <H1 className="text-center">Meus Melhores Trabalhos</H1>
 
-      <section className="space-y-16">
+      <section className="sm:px-0 space-y-16 w-full">
         <article className="flex flex-col sm:flex-row gap-8 w-full">
-          <div className="min-w-[290px] h-[195px] rounded-lg bg-neutral-800"></div>
+          <div className="sm:min-w-[290px] h-[195px] rounded-lg bg-neutral-800"></div>
           <aside className="flex flex-col gap-4">
             <H3>Nome do projeto</H3>
             <p>
@@ -30,7 +28,7 @@ export function Projects() {
           </aside>
         </article>
         <article className="flex flex-col sm:flex-row gap-8 w-full">
-          <div className="min-w-[290px] h-[195px] rounded-lg bg-neutral-800"></div>
+          <div className="sm:min-w-[290px] h-[195px] rounded-lg bg-neutral-800"></div>
           <aside className="flex flex-col gap-4">
             <H3>Nome do projeto</H3>
             <p>
@@ -47,7 +45,7 @@ export function Projects() {
           </aside>
         </article>
         <article className="flex flex-col sm:flex-row gap-8 w-full">
-          <div className="min-w-[290px] h-[195px] rounded-lg bg-neutral-800"></div>
+          <div className="sm:min-w-[290px] h-[195px] rounded-lg bg-neutral-800"></div>
           <aside className="flex flex-col gap-4">
             <H3>Nome do projeto</H3>
             <p>
@@ -66,11 +64,11 @@ export function Projects() {
       </section>
 
       <footer className="flex flex-col sm:flex-row items-center justify-between w-full">
-        <p className="max-w-sm text-muted-foreground">
+        <p className="text-center sm:text-left max-w-sm text-muted-foreground">
           Explore toda a nossa diversidade de soluções e projetos já
           desenvolvidos.
         </p>
-        <Button variant="link" className="ml-auto">
+        <Button variant="link" className="sm:ml-auto">
           Ver mais trabalhos <ArrowRight className="w-4 h-4 ml-2" />
         </Button>
       </footer>

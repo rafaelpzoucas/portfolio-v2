@@ -11,7 +11,7 @@ const H1 = React.forwardRef<HTMLHeadingElement, HeadingProps>(
     const Comp = 'h1'
     return (
       <Comp
-        className={cn('text-3xl sm:text-4xl', className)}
+        className={cn('text-2xl sm:text-3xl md:text-4xl', className)}
         ref={ref}
         {...props}
       >
@@ -26,7 +26,7 @@ const H2 = React.forwardRef<HTMLHeadingElement, HeadingProps>(
     const Comp = 'h2'
     return (
       <Comp
-        className={cn('text-2xl sm:text-3xl', className)}
+        className={cn('text-xl sm:text-2xl md:text-3xl', className)}
         ref={ref}
         {...props}
       >
@@ -41,7 +41,7 @@ const H3 = React.forwardRef<HTMLHeadingElement, HeadingProps>(
     const Comp = 'h3'
     return (
       <Comp
-        className={cn('text-xl sm:text-2xl', className)}
+        className={cn('text-lg sm:text-xl md:text-2xl', className)}
         ref={ref}
         {...props}
       >
