@@ -11,7 +11,7 @@ export function Projects() {
 
       <section className="sm:px-0 space-y-16 w-full">
         <article className="flex flex-col sm:flex-row gap-8 w-full">
-          <div className="sm:min-w-[290px] h-[195px] rounded-lg bg-neutral-800"></div>
+          <div className="sm:min-w-[290px] h-[195px] rounded-lg bg-secondary"></div>
           <aside className="flex flex-col gap-4">
             <H3>Nome do projeto</H3>
             <p>
@@ -28,7 +28,7 @@ export function Projects() {
           </aside>
         </article>
         <article className="flex flex-col sm:flex-row gap-8 w-full">
-          <div className="sm:min-w-[290px] h-[195px] rounded-lg bg-neutral-800"></div>
+          <div className="sm:min-w-[290px] h-[195px] rounded-lg bg-secondary"></div>
           <aside className="flex flex-col gap-4">
             <H3>Nome do projeto</H3>
             <p>
@@ -45,7 +45,7 @@ export function Projects() {
           </aside>
         </article>
         <article className="flex flex-col sm:flex-row gap-8 w-full">
-          <div className="sm:min-w-[290px] h-[195px] rounded-lg bg-neutral-800"></div>
+          <div className="sm:min-w-[290px] h-[195px] rounded-lg bg-secondary"></div>
           <aside className="flex flex-col gap-4">
             <H3>Nome do projeto</H3>
             <p>

@@ -45,7 +45,7 @@ export function CreativeSteps() {
             key={step.step}
             className="flex flex-col sm:flex-row gap-4 sm:gap-8 w-full"
           >
-            <div className="flex items-center justify-center w-14 h-14 aspect-square rounded-full bg-neutral-800">
+            <div className="flex items-center justify-center w-14 h-14 aspect-square rounded-full bg-secondary">
               <strong className="text-xl text-muted-foreground">
                 {step.step}
               </strong>

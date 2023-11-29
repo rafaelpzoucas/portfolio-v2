@@ -53,7 +53,7 @@ export function Solutions() {
             key={solution.title}
             className="flex flex-col sm:flex-row gap-4 sm:gap-8 w-full"
           >
-            <div className="flex items-center justify-center w-14 h-14 aspect-square rounded-lg bg-neutral-800 text-muted-foreground">
+            <div className="flex items-center justify-center w-14 h-14 aspect-square rounded-lg bg-secondary text-muted-foreground">
               {solution.icon}
             </div>
             <aside className="flex flex-col gap-1">
