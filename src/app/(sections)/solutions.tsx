@@ -1,46 +1,8 @@
 import { Button } from '@/components/ui/button'
 import { H1 } from '@/components/ui/headings'
 import { Section } from '@/components/ui/section'
-import {
-  ArrowRight,
-  Figma,
-  Globe,
-  Puzzle,
-  Search,
-  Smartphone,
-} from 'lucide-react'
-
-const solutions = [
-  {
-    icon: <Figma className="w-6 h-6" />,
-    title: 'Prototipação',
-    description:
-      'Criação de protótipos interativos para simular a experiência do usuário antes do desenvolvimento completo.',
-  },
-  {
-    icon: <Globe className="w-6 h-6" />,
-    title: 'Landing Pages',
-    description: 'Criação de páginas de destino otimizadas para conversão.',
-  },
-  {
-    icon: <Smartphone className="w-6 h-6" />,
-    title: 'Aplicações Web Progressivas (PWAs):',
-    description:
-      'Desenvolvimento de aplicações web que oferecem uma experiência semelhante à de aplicativos nativos.',
-  },
-  {
-    icon: <Puzzle className="w-6 h-6" />,
-    title: 'Integração de Sistemas:',
-    description:
-      'Conexão de diferentes sistemas e APIs para garantir uma experiência fluida.',
-  },
-  {
-    icon: <Search className="w-6 h-6" />,
-    title: 'Otimização para SEO:',
-    description:
-      'Realização de auditorias on-page para garantir que os elementos HTML, meta tags e conteúdo estejam otimizados para os motores de busca.',
-  },
-]
+import { ArrowRight } from 'lucide-react'
+import { solutions } from './data'
 
 export function Solutions() {
   return (
@@ -67,8 +29,8 @@ export function Solutions() {
       </section>
       <footer className="flex flex-col sm:flex-row items-center gap-4 justify-between w-full">
         <p className="max-w-sm text-center sm:text-left text-muted-foreground">
-          Explore toda a nossa diversidade de soluções e projetos já
-          desenvolvidos.
+          Soluções ágeis para desafios modernos. Encontre a abordagem perfeita
+          para o seu sucesso.
         </p>
         <Button>
           Iniciar projeto <ArrowRight className="w-4 h-4 ml-2" />
