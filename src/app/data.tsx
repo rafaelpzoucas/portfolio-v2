@@ -8,9 +8,10 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from 'react-icons/si'
-import ignitodo from '../../public/ignitodo-thumb.png'
-import marvel from '../../public/marvel-thumb.jpg'
-import wm10 from '../../public/wm10-thumb.png'
+import ignitodo from '../../public/thumb-ignitodo.png'
+import marvel from '../../public/thumb-marvel.png'
+import v1 from '../../public/thumb-v1.png'
+import wm10 from '../../public/thumb-wm10.png'
 import { ProjectDataType } from './(sections)/projects'
 
 export const steps = [
@@ -126,6 +127,28 @@ export const faq = [
 ]
 
 export const projects: ProjectDataType[] = [
+  {
+    title: 'Portfólio V1',
+    description:
+      'Esta foi a primeira versão do meu portfólio, e eu sinto muito orgulho desse projeto. No entanto, desde que o criei no final de 2022, melhorei muito minhas habilidades de código. Por isso, decidi dar uma atualizada nele criando a V2.',
+    repo_url: 'https://github.com/rafaelpzoucas/marvel-app',
+    deploy_url: 'https://marvel-app-z.vercel.app/',
+    image_src: v1,
+    stacks: [
+      {
+        name: 'TypeScript',
+        icon: <SiTypescript />,
+      },
+      {
+        name: 'ReactJs',
+        icon: <SiReact />,
+      },
+      {
+        name: 'Styled Components',
+        icon: <SiTailwindcss />,
+      },
+    ],
+  },
   {
     title: 'Heróis da Marvel',
     description:

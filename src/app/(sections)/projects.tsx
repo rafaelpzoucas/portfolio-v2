@@ -62,22 +62,23 @@ export function Projects({ projects }: ProjectsPropsType) {
                   </Badge>
                 ))}
               </div>
-              {project.repo_url && (
-                <footer className="flex flex-row gap-4">
-                  <Link href={project.deploy_url} target="_blank">
-                    <Button variant="link" className="flex flex-row gap-2 px-0">
-                      <ExternalLink className="w-5 h-5" />
-                      Projeto
-                    </Button>
-                  </Link>
+
+              <footer className="flex flex-row gap-4">
+                <Link href={project.deploy_url} target="_blank">
+                  <Button variant="link" className="flex flex-row gap-2 px-0">
+                    <ExternalLink className="w-5 h-5" />
+                    Projeto
+                  </Button>
+                </Link>
+                {project.repo_url && (
                   <Link href={project.repo_url} target="_blank">
                     <Button variant="link" className="flex flex-row gap-2 px-0">
                       <FaGithub className="text-xl" />
                       Repositório
                     </Button>
                   </Link>
-                </footer>
-              )}
+                )}
+              </footer>
             </div>
           </article>
         ))}
