@@ -29,9 +29,13 @@ export function Project({ data }: { data: ProjectDataType }) {
       <div className="flex flex-col gap-4">
         <H3>{data.title}</H3>
         <p className="text-muted-foreground">{data.description}</p>
-        <div className="flex flex-row gap-2">
+        <div className="flex flex-row flex-wrap gap-2">
           {data.stacks.map((stack) => (
-            <Badge variant="outline" key={stack.name}>
+            <Badge
+              variant="outline"
+              key={stack.name}
+              className="whitespace-nowrap"
+            >
               {stack.name}
             </Badge>
           ))}
