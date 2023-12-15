@@ -6,7 +6,7 @@ import {
 } from '@/components/ui/accordion'
 import { H1 } from '@/components/ui/headings'
 import { Section } from '@/components/ui/section'
-import { faq } from './data'
+import { faq } from '../data'
 
 export function FAQ() {
   return (

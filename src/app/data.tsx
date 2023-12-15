@@ -8,9 +8,10 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from 'react-icons/si'
-import ignitodo from '../../../public/ignitodo-thumb.png'
-import marvel from '../../../public/marvel-thumb.jpg'
-import wm10 from '../../../public/wm10-thumb.png'
+import ignitodo from '../../public/ignitodo-thumb.png'
+import marvel from '../../public/marvel-thumb.jpg'
+import wm10 from '../../public/wm10-thumb.png'
+import { ProjectDataType } from './(sections)/projects'
 
 export const steps = [
   {
@@ -124,11 +125,11 @@ export const faq = [
   },
 ]
 
-export const projects = [
+export const projects: ProjectDataType[] = [
   {
     title: 'Heróis da Marvel',
     description:
-      'Foi desenvolvido um layout inspirado nas páginas de uma revista em quadrinhos, com cores vibrantes, tipografia chamativa e elementos gráficos que remetem ao estilo artístico dos quadrinhos. Cada detalhe do design foi cuidadosamente pensado para transmitir a atmosfera dinâmica e emocionante das histórias em quadrinhos da Marvel.',
+      'Foi desenvolvido um layout inspirado nas páginas de uma revista em quadrinhos, com cores vibrantes, tipografia chamativa e elementos gráficos que remetem ao estilo artístico dos quadrinhos.',
     repo_url: 'https://github.com/rafaelpzoucas/marvel-app',
     deploy_url: 'https://marvel-app-z.vercel.app/',
     image_src: marvel,

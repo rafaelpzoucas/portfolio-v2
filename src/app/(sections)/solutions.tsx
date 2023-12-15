@@ -1,8 +1,7 @@
-import { Button } from '@/components/ui/button'
+import { CTAButton } from '@/components/cta-button'
 import { H1 } from '@/components/ui/headings'
 import { Section } from '@/components/ui/section'
-import { ArrowRight } from 'lucide-react'
-import { solutions } from './data'
+import { solutions } from '../data'
 
 export function Solutions() {
   return (
@@ -32,9 +31,7 @@ export function Solutions() {
           Soluções ágeis para desafios modernos. Encontre a abordagem perfeita
           para o seu sucesso.
         </p>
-        <Button>
-          Iniciar projeto <ArrowRight className="w-4 h-4 ml-2" />
-        </Button>
+        <CTAButton />
       </footer>
     </Section>
   )

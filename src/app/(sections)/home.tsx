@@ -1,6 +1,7 @@
+import { CTAButton } from '@/components/cta-button'
 import { Button } from '@/components/ui/button'
 import { Section } from '@/components/ui/section'
-import { ArrowRight, CornerRightDown } from 'lucide-react'
+import { CornerRightDown } from 'lucide-react'
 import Link from 'next/link'
 
 export function Home() {
@@ -23,9 +24,7 @@ export function Home() {
             Conhecer portfólio <CornerRightDown className="w-4 h-4 ml-2" />
           </Button>
         </Link>
-        <Button className="w-full">
-          Iniciar projeto <ArrowRight className="w-4 h-4 ml-2" />
-        </Button>
+        <CTAButton />
       </div>
     </Section>
   )

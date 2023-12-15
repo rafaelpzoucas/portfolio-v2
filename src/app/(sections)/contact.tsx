@@ -1,7 +1,6 @@
-import { Button } from '@/components/ui/button'
+import { CTAButton } from '@/components/cta-button'
 import { H1, H3 } from '@/components/ui/headings'
 import { Section } from '@/components/ui/section'
-import { ArrowRight } from 'lucide-react'
 
 export function Contact() {
   return (
@@ -11,16 +10,14 @@ export function Contact() {
         <p className="text-muted-foreground">
           Tire suas ideias do papel. Estou aqui para transformá-las realidade.
         </p>
-        <Button className="w-full sm:w-fit mt-4">
-          Iniciar projeto <ArrowRight className="w-4 h-4 ml-2" />
-        </Button>
+        <CTAButton />
       </header>
 
       <article className="w-full space-y-4">
         <H3>Contato</H3>
         <div>
           <span className="text-xs text-muted-foreground">E-mail</span>
-          <p>contato@rafaelzoucas.com.br</p>
+          <p>rafaelpzoucas@gmail.com</p>
         </div>
         <div>
           <span className="text-xs text-muted-foreground">WhatsApp</span>

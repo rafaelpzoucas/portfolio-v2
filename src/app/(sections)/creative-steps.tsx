@@ -1,6 +1,6 @@
 import { H1 } from '@/components/ui/headings'
 import { Section } from '@/components/ui/section'
-import { steps } from './data'
+import { steps } from '../data'
 
 export function CreativeSteps() {
   return (

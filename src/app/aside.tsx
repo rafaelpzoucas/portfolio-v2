@@ -4,9 +4,9 @@ import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 
-import { Nav } from '@/components/nav'
+import { ReactNode } from 'react'
 
-export function Aside() {
+export function Aside({ children }: { children: ReactNode }) {
   return (
     <aside className="md:sticky top-0 flex flex-col md:justify-between px-4 md:px-0 py-14 pb-4 md:py-20 w-full md:max-w-xs md:h-screen select-none">
       <div className="space-y-10">
@@ -23,7 +23,7 @@ export function Aside() {
           </Link> */}
         </header>
 
-        <Nav />
+        {children}
       </div>
 
       <section className="flex flex-row gap-2 mt-4">

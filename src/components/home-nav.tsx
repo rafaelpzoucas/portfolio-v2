@@ -28,7 +28,7 @@ const navigation = [
   },
 ]
 
-export function Nav() {
+export function HomeNav() {
   const [hash, setHash] = useState('')
 
   function handleScroll() {
