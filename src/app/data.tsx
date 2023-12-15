@@ -4,13 +4,16 @@ import {
   SiCss3,
   SiHtml5,
   SiJavascript,
+  SiRadixui,
   SiReact,
+  SiStyledcomponents,
   SiTailwindcss,
   SiTypescript,
 } from 'react-icons/si'
 import ignitodo from '../../public/thumb-ignitodo.png'
 import marvel from '../../public/thumb-marvel.png'
 import v1 from '../../public/thumb-v1.png'
+import wm10GIF from '../../public/thumb-wm10.gif'
 import wm10 from '../../public/thumb-wm10.png'
 import { ProjectDataType } from './(sections)/projects'
 
@@ -131,9 +134,10 @@ export const projects: ProjectDataType[] = [
     title: 'Portfólio V1',
     description:
       'Esta foi a primeira versão do meu portfólio, e eu sinto muito orgulho desse projeto. No entanto, desde que o criei no final de 2022, melhorei muito minhas habilidades de código. Por isso, decidi dar uma atualizada nele criando a V2.',
-    repo_url: 'https://github.com/rafaelpzoucas/marvel-app',
-    deploy_url: 'https://marvel-app-z.vercel.app/',
+    repo_url: 'https://github.com/rafaelpzoucas/portfolio-v1',
+    deploy_url: 'https://rafaelzoucas-v1.vercel.app/',
     image_src: v1,
+    gif_src: null,
     stacks: [
       {
         name: 'TypeScript',
@@ -144,8 +148,12 @@ export const projects: ProjectDataType[] = [
         icon: <SiReact />,
       },
       {
-        name: 'Styled Components',
+        name: 'Tailwind CSS',
         icon: <SiTailwindcss />,
+      },
+      {
+        name: 'Radix UI',
+        icon: <SiRadixui />,
       },
     ],
   },
@@ -156,6 +164,7 @@ export const projects: ProjectDataType[] = [
     repo_url: 'https://github.com/rafaelpzoucas/marvel-app',
     deploy_url: 'https://marvel-app-z.vercel.app/',
     image_src: marvel,
+    gif_src: null,
     stacks: [
       {
         name: 'TypeScript',
@@ -167,7 +176,7 @@ export const projects: ProjectDataType[] = [
       },
       {
         name: 'Styled Components',
-        icon: <SiTailwindcss />,
+        icon: <SiStyledcomponents />,
       },
     ],
   },
@@ -178,6 +187,7 @@ export const projects: ProjectDataType[] = [
     repo_url: null,
     deploy_url: 'https://wm10.com.br/',
     image_src: wm10,
+    gif_src: wm10GIF,
     stacks: [
       {
         name: 'HTML',
@@ -204,6 +214,7 @@ export const projects: ProjectDataType[] = [
     repo_url: 'https://github.com/rafaelpzoucas/ignitodo',
     deploy_url: 'https://ignitodo.vercel.app/',
     image_src: ignitodo,
+    gif_src: null,
     stacks: [
       {
         name: 'TypeScript',

@@ -1,14 +1,13 @@
 'use client'
 
-import { Badge } from '@/components/ui/badge'
+import { Project } from '@/components/project'
 import { Button } from '@/components/ui/button'
-import { H1, H3 } from '@/components/ui/headings'
+import { H1 } from '@/components/ui/headings'
 import { Section } from '@/components/ui/section'
-import { ArrowRight, ExternalLink } from 'lucide-react'
-import Image, { StaticImageData } from 'next/image'
+import { ArrowRight } from 'lucide-react'
+import { StaticImageData } from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { FaGithub } from 'react-icons/fa'
 
 type StacksDataType = {
   name: string
@@ -21,6 +20,7 @@ export type ProjectDataType = {
   repo_url: string | null
   deploy_url: string
   image_src: StaticImageData
+  gif_src: StaticImageData | null
   stacks: StacksDataType[]
 }
 
@@ -40,47 +40,7 @@ export function Projects({ projects }: ProjectsPropsType) {
 
       <section className="sm:px-0 space-y-16 w-full">
         {projects.map((project) => (
-          <article
-            key={project.title}
-            className="flex flex-col sm:flex-row gap-8 w-full p-4 rounded-lg hover:bg-secondary/30 transition-colors duration-300"
-          >
-            <div className="relative sm:min-w-[290px] h-[195px] rounded-lg bg-secondary overflow-hidden">
-              <Image
-                src={project.image_src}
-                alt={project.title}
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="flex flex-col gap-4">
-              <H3>{project.title}</H3>
-              <p className="text-muted-foreground">{project.description}</p>
-              <div className="flex flex-row gap-2">
-                {project.stacks.map((stack) => (
-                  <Badge variant="outline" key={stack.name}>
-                    {stack.name}
-                  </Badge>
-                ))}
-              </div>
-
-              <footer className="flex flex-row gap-4">
-                <Link href={project.deploy_url} target="_blank">
-                  <Button variant="link" className="flex flex-row gap-2 px-0">
-                    <ExternalLink className="w-5 h-5" />
-                    Projeto
-                  </Button>
-                </Link>
-                {project.repo_url && (
-                  <Link href={project.repo_url} target="_blank">
-                    <Button variant="link" className="flex flex-row gap-2 px-0">
-                      <FaGithub className="text-xl" />
-                      Repositório
-                    </Button>
-                  </Link>
-                )}
-              </footer>
-            </div>
-          </article>
+          <Project key={project.title} data={project} />
         ))}
       </section>
 
