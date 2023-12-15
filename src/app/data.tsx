@@ -11,7 +11,9 @@ import {
   SiTypescript,
 } from 'react-icons/si'
 import ignitodo from '../../public/thumb-ignitodo.png'
+import marvelGIF from '../../public/thumb-marvel.gif'
 import marvel from '../../public/thumb-marvel.png'
+import v1GIF from '../../public/thumb-v1.gif'
 import v1 from '../../public/thumb-v1.png'
 import wm10GIF from '../../public/thumb-wm10.gif'
 import wm10 from '../../public/thumb-wm10.png'
@@ -137,7 +139,7 @@ export const projects: ProjectDataType[] = [
     repo_url: 'https://github.com/rafaelpzoucas/portfolio-v1',
     deploy_url: 'https://rafaelzoucas-v1.vercel.app/',
     image_src: v1,
-    gif_src: null,
+    gif_src: v1GIF,
     stacks: [
       {
         name: 'TypeScript',
@@ -164,7 +166,7 @@ export const projects: ProjectDataType[] = [
     repo_url: 'https://github.com/rafaelpzoucas/marvel-app',
     deploy_url: 'https://marvel-app-z.vercel.app/',
     image_src: marvel,
-    gif_src: null,
+    gif_src: marvelGIF,
     stacks: [
       {
         name: 'TypeScript',
