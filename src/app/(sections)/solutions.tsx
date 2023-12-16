@@ -28,8 +28,7 @@ export function Solutions() {
       </section>
       <footer className="flex flex-col sm:flex-row items-center gap-4 justify-between w-full">
         <p className="max-w-sm text-center sm:text-left text-muted-foreground">
-          Soluções ágeis para desafios modernos. Encontre a abordagem perfeita
-          para o seu sucesso.
+          Soluções ágeis para desafios modernos.
         </p>
         <CTAButton />
       </footer>

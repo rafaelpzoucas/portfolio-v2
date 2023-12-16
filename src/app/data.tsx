@@ -19,6 +19,13 @@ import wm10GIF from '../../public/thumb-wm10.gif'
 import wm10 from '../../public/thumb-wm10.png'
 import { ProjectDataType } from './(sections)/projects'
 
+const today = new Date()
+const initialYear = new Date('2021-01-01')
+const diff = today.getTime() - initialYear.getTime()
+const diffInYears = diff / (1000 * 60 * 60 * 24 * 365.25)
+
+const experienceYears = Math.round(diffInYears)
+
 export const steps = [
   {
     step: 1,
@@ -88,8 +95,7 @@ export const faq = [
   {
     title:
       'Qual é a sua experiência em desenvolvimento de sites e aplicativos?',
-    description:
-      'Tenho mais de 5 anos de experiência desenvolvendo soluções digitais, desde pequenos sites até aplicativos corporativos. Meu foco é criar produtos que atendam às necessidades específicas do seu negócio.',
+    description: `Tenho mais de ${experienceYears} anos de experiência desenvolvendo soluções digitais, desde pequenos sites até aplicativos corporativos. Meu foco é criar produtos que atendam às necessidades específicas do seu negócio.`,
   },
   {
     title: 'Como posso saber se você é a pessoa certa para o meu projeto?',
