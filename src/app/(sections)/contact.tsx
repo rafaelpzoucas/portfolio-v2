@@ -8,7 +8,7 @@ export function Contact() {
       <header className="flex flex-col gap-3 w-full">
         <H1>Pronto para Transformar sua Visão em Realidade?</H1>
         <p className="text-muted-foreground">
-          Tire suas ideias do papel. Estou aqui para transformá-las realidade.
+          Tire suas ideias do papel. Estou aqui para transformá-las em realidade.
         </p>
         <CTAButton />
       </header>
