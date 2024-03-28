@@ -39,8 +39,8 @@ export function Projects() {
         </CarouselContent>
         {projects.length > 3 && (
           <>
-            <CarouselPrevious className="hidden md:block" />
-            <CarouselNext className="hidden md:block" />
+            <CarouselPrevious className="hidden md:flex" />
+            <CarouselNext className="hidden md:flex" />
           </>
         )}
       </Carousel>
