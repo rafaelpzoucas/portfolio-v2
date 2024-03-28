@@ -5,7 +5,7 @@ import { features } from '@/data/features'
 
 export function Features() {
   return (
-    <Section id="solutions" className="flex items-center justify-center">
+    <Section id="features" className="flex items-center justify-center">
       <div className="flex flex-col gap-16 max-w-3xl">
         <H1 className="text-center">{features.title}</H1>
 
