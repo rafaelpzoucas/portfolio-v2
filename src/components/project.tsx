@@ -1,4 +1,4 @@
-import { ProjectDataType } from '@/app/(sections)/projects'
+import { ProjectDataType } from '@/app/portfolio/(sections)/projects'
 import { ExternalLink } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'

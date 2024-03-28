@@ -1,5 +1,6 @@
 import { ThemeProvider } from '@/components/theme-provider'
 import { cn } from '@/lib/utils'
+import { GoogleAnalytics } from '@next/third-parties/google'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
@@ -27,10 +28,11 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
-          <footer className="flex items-center justify-center text-center text-sm p-4 border-t">
-            <p>© 2023 Rafael Zoucas. Todos os direitos reservados</p>
+          <footer className="flex items-center justify-center text-center text-sm p-4 border-t text-muted-foreground">
+            <p>© 2024 Rafael Zoucas. Todos os direitos reservados</p>
           </footer>
         </ThemeProvider>
+        <GoogleAnalytics gaId="G-S8TXFLT8W0" />
       </body>
     </html>
   )

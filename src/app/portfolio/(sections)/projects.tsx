@@ -1,9 +1,9 @@
 'use client'
 
 import { Project } from '@/components/project'
+import { Section } from '@/components/section'
 import { Button } from '@/components/ui/button'
 import { H1 } from '@/components/ui/headings'
-import { Section } from '@/components/ui/section'
 import { ArrowRight } from 'lucide-react'
 import { StaticImageData } from 'next/image'
 import Link from 'next/link'
@@ -32,7 +32,7 @@ export function Projects({ projects }: ProjectsPropsType) {
   const pathname = usePathname()
 
   return (
-    <Section id="projects">
+    <Section id="projects" className="space-y-16 w-full !px-4">
       {/* <H1 className="text-center">Meus Melhores Trabalhos</H1> */}
       <H1 className="text-center">
         {pathname !== '/projects' ? 'Meus Últimos Projetos' : 'Meus Projetos'}

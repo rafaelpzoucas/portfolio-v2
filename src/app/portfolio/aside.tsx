@@ -9,7 +9,7 @@ import { ReactNode } from 'react'
 export function Aside({ children }: { children: ReactNode }) {
   return (
     <aside className="md:sticky top-0 flex flex-col md:justify-between px-4 md:px-0 py-14 pb-4 md:py-20 w-full md:max-w-xs md:h-screen select-none">
-      <div className="space-y-10">
+      <div className="flex flex-col gap-10">
         <header className="space-y-1">
           <h1 className="text-3xl font-bold">Rafael Zoucas</h1>
           <h3 className="text-lg">Software Engineer</h3>

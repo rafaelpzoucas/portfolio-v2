@@ -1,10 +1,9 @@
 import { CTAButton } from '@/components/cta-button'
-import { cn } from '@/lib/utils'
+import { ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
 import { Projects } from '../(sections)/projects'
 import { Aside } from '../aside'
 import { projects } from '../data'
-import { ArrowLeft } from 'lucide-react'
 
 export default function ProjectsPage() {
   return (
@@ -19,6 +18,7 @@ export default function ProjectsPage() {
             </Link>
           </ul>
         </nav>
+
         <CTAButton />
       </Aside>
 
