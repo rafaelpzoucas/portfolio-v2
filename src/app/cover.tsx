@@ -15,7 +15,7 @@ export function Cover() {
         <div className="absolute -z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[450px] max-w-full aspect-square rounded-full blur-3xl opacity-20 bg-gradient-to-r from-violet-500 to-sky-500" />
         <h1 className="text-3xl sm:text-4xl md:text-5xl text-center">
           Impulsione <strong>Suas Vendas</strong> com uma Landing Page{' '}
-          <strong>Incrível</strong>
+          <strong>Que Converte</strong>
         </h1>
         <p className="text-muted-foreground text-center">
           Do clique à conversão: Transforme visitantes em clientes com
