@@ -32,7 +32,7 @@ export default function RootLayout({
             <p>© 2024 Rafael Zoucas. Todos os direitos reservados</p>
           </footer>
         </ThemeProvider>
-        <GoogleAnalytics gaId="G-S8TXFLT8W0" />
+        <GoogleAnalytics gaId="G-EEWYEDJSZ0" />
       </body>
     </html>
   )
