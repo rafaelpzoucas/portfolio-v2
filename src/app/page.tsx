@@ -13,9 +13,9 @@ export default function HomePage() {
       <Cover />
       {/* <Metrics /> */}
       <Features />
-      <CreativeSteps />
       <Benefits />
       <Projects />
+      <CreativeSteps />
       <CallToAction />
       {/* <SocialProof /> */}
       <FAQ />

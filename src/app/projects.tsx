@@ -17,12 +17,12 @@ export function Projects() {
     <Section className="flex flex-col items-center gap-16 px-4">
       <H1>Nossos últimos projetos</H1>
 
-      <Carousel className="w-full">
+      <Carousel className="w-full md:max-w-7xl">
         <CarouselContent>
           {projects.map((project) => (
             <CarouselItem
               key={project.title}
-              className="flex-[0_0_85%] md:basis-1/3"
+              className="flex-[0_0_85%] md:flex-[0_0_70%]"
             >
               <Link href={project.deploy_url} target="_blank">
                 <Card className="relative p-4 aspect-video rounded-lg overflow-hidden">
@@ -30,7 +30,7 @@ export function Projects() {
                     src={project.image_src}
                     fill
                     alt=""
-                    className="object-cover"
+                    className="object-cover select-none"
                   />
                 </Card>
               </Link>
