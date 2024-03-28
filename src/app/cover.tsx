@@ -1,9 +1,5 @@
 import { CTAButton } from '@/components/cta-button'
 import { Section } from '@/components/section'
-import { buttonVariants } from '@/components/ui/button'
-import { cn } from '@/lib/utils'
-import { MoveRight } from 'lucide-react'
-import Link from 'next/link'
 
 export function Cover() {
   return (
@@ -25,12 +21,6 @@ export function Cover() {
 
       <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 w-full sm:w-auto">
         <CTAButton />
-        <Link
-          href="portfolio"
-          className={cn(buttonVariants({ variant: 'secondary' }))}
-        >
-          Conhecer portfólio <MoveRight className="w-4 h-4 ml-2" />
-        </Link>
       </div>
     </Section>
   )
