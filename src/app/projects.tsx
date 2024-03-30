@@ -15,7 +15,7 @@ import { projects } from './portfolio/data'
 export function Projects() {
   return (
     <Section id="projects" className="flex flex-col items-center gap-16 px-4">
-      <H1>Nossos últimos projetos</H1>
+      <H1>Meus últimos projetos</H1>
 
       <Carousel className="w-full md:max-w-7xl">
         <CarouselContent>

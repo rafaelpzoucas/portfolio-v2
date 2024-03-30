@@ -47,29 +47,6 @@ export const projects: ProjectDataType[] = [
     ],
   },
   {
-    title: 'Heróis da Marvel',
-    description:
-      'Foi desenvolvido um layout inspirado nas páginas de uma revista em quadrinhos, com cores vibrantes, tipografia chamativa e elementos gráficos que remetem ao estilo artístico dos quadrinhos.',
-    repo_url: 'https://github.com/rafaelpzoucas/marvel-app',
-    deploy_url: 'https://marvel-app-z.vercel.app/',
-    image_src: marvel,
-    gif_src: marvelGIF,
-    stacks: [
-      {
-        name: 'TypeScript',
-        icon: <SiTypescript />,
-      },
-      {
-        name: 'ReactJs',
-        icon: <SiReact />,
-      },
-      {
-        name: 'Styled Components',
-        icon: <SiStyledcomponents />,
-      },
-    ],
-  },
-  {
     title: 'ERP WM10',
     description:
       'Redesign do site do WM10, realizado durante o período de estágio na empresa. Projeto desenvolvido com HTML, CSS, JS, Bootstrap e a biblioteca SplideJs para os carroséis. Projeto finalizado em outubro de 2022.',
@@ -93,6 +70,29 @@ export const projects: ProjectDataType[] = [
       {
         name: 'Bootstrap',
         icon: <SiBootstrap />,
+      },
+    ],
+  },
+  {
+    title: 'Heróis da Marvel',
+    description:
+      'Foi desenvolvido um layout inspirado nas páginas de uma revista em quadrinhos, com cores vibrantes, tipografia chamativa e elementos gráficos que remetem ao estilo artístico dos quadrinhos.',
+    repo_url: 'https://github.com/rafaelpzoucas/marvel-app',
+    deploy_url: 'https://marvel-app-z.vercel.app/',
+    image_src: marvel,
+    gif_src: marvelGIF,
+    stacks: [
+      {
+        name: 'TypeScript',
+        icon: <SiTypescript />,
+      },
+      {
+        name: 'ReactJs',
+        icon: <SiReact />,
+      },
+      {
+        name: 'Styled Components',
+        icon: <SiStyledcomponents />,
       },
     ],
   },

@@ -10,17 +10,17 @@ export function Benefits() {
     >
       <H1 className="text-center">{benefits.title}</H1>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 max-w-4xl">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 md:max-w-7xl">
         {benefits.data.map((benefit, index) => (
           <div
             key={index}
-            className="flex flex-col md:items-center md:text-center gap-2 sm:gap-4"
+            className="flex flex-col md:items-center md:text-center gap-2 sm:gap-4 w-full"
           >
-            <div className="flex items-center justify-center w-14 h-14 aspect-square rounded-lg bg-secondary">
-              <benefit.icon className="w-6 h-6 text-primary" />
+            <div className="flex items-center justify-center w-20 h-20 aspect-square rounded-lg bg-secondary">
+              <benefit.icon className="w-10 h-10 text-primary" />
             </div>
-            <strong>{benefit.title}</strong>
-            <p className="text-sm text-muted-foreground">
+            <strong className="text-lg md:text-2xl">{benefit.title}</strong>
+            <p className="md:text-lg text-muted-foreground">
               {benefit.description}
             </p>
           </div>

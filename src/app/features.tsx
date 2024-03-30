@@ -15,12 +15,14 @@ export function Features() {
               key={solution.title}
               className="flex flex-col sm:flex-row gap-4 sm:gap-8 w-full"
             >
-              <div className="flex items-center justify-center w-14 h-14 aspect-square rounded-lg bg-secondary">
-                <solution.icon className="w-6 h-6 text-primary" />
+              <div className="flex items-center justify-center w-20 h-20 aspect-square rounded-lg bg-secondary">
+                <solution.icon className="w-10 h-10 text-primary" />
               </div>
               <aside className="flex flex-col gap-1">
-                <strong>{solution.title}</strong>
-                <p className="text-muted-foreground text-sm">
+                <strong className="text-lg md:text-2xl">
+                  {solution.title}
+                </strong>
+                <p className="text-muted-foreground md:text-lg">
                   {solution.description}
                 </p>
               </aside>

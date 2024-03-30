@@ -7,7 +7,7 @@ export const profile = {
   address: '',
   role: 'Software Engineer',
   about:
-    'Sou um desenvolvedor front-end apaixonado por criar experiências de usuário (UI/UX) incríveis. Com experiência na criação de aplicações web desde a concepção até o desenvolvimento, utilizo ferramentas como Figma para prototipagem e tecnologias como React, Typescript, Styled-components e Tailwind CSS para construir soluções elegantes e eficientes.',
+    'Sou um desenvolvedor front-end apaixonado por criar experiências de usuário (UI/UX) incríveis. Com mais de 3 anos de experiência na criação de aplicações web.',
   social: [
     {
       name: 'WhatsApp',

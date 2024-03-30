@@ -7,7 +7,7 @@ import {
 } from 'lucide-react'
 
 export const features = {
-  title: 'Recursos das nossas Landing Pages',
+  title: 'Recursos que ofereço',
   data: [
     {
       icon: PenTool,
@@ -25,7 +25,7 @@ export const features = {
       icon: Lightbulb,
       title: 'Criação de Marca (Branding)',
       description:
-        'Desenvolvimento de identidade visual única para sua marca, incluindo criação de logos, paleta de cores e diretrizes de marca.',
+        'Se você ainda não possui uma identidade visual consolidada, estou à disposição para criar uma marca exclusiva para você, abrangendo desde a elaboração de logotipos até a definição de uma paleta de cores e diretrizes de marca.',
     },
     {
       icon: BarChart2,

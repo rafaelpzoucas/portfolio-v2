@@ -28,7 +28,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
-          <footer className="flex items-center justify-center text-center text-sm p-4 border-t text-muted-foreground">
+          <footer className="flex items-center justify-center text-center text-sm p-4 text-muted-foreground">
             <p>© 2024 Rafael Zoucas. Todos os direitos reservados</p>
           </footer>
         </ThemeProvider>
