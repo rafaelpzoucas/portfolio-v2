@@ -8,9 +8,9 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel'
 import { H1 } from '@/components/ui/headings'
+import { projects } from '@/data/projects'
 import Image from 'next/image'
 import Link from 'next/link'
-import { projects } from './portfolio/data'
 
 export function Projects() {
   return (
@@ -22,22 +22,23 @@ export function Projects() {
           {projects.map((project) => (
             <CarouselItem
               key={project.title}
-              className="flex-[0_0_85%] md:flex-[0_0_70%]"
+              className="flex-[0_0_85%] md:flex-[0_0_38%]"
             >
               <Link href={project.deploy_url} target="_blank">
-                <Card className="relative p-4 aspect-video rounded-lg overflow-hidden">
+                <Card className="relative p-4 aspect-[9_/_16] rounded-xl overflow-hidden">
                   <Image
                     src={project.image_src}
                     fill
                     alt=""
                     className="object-cover select-none"
+                    loading="lazy"
                   />
                 </Card>
               </Link>
             </CarouselItem>
           ))}
         </CarouselContent>
-        {projects.length > 3 && (
+        {projects.length > 2 && (
           <>
             <CarouselPrevious className="hidden md:flex" />
             <CarouselNext className="hidden md:flex" />
