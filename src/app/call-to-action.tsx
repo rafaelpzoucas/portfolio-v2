@@ -4,8 +4,6 @@ import { cta } from '@/data/cta'
 import { cn } from '@/lib/utils'
 
 export function CallToAction() {
-  const action = cta.actions[0]
-
   return (
     <Section
       id="cta"

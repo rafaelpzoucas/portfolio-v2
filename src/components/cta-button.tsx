@@ -16,7 +16,7 @@ export function CTAButton({ className }: { className?: string }) {
   }
 
   return (
-    <Button onClick={handleClick} className={cn(className)}>
+    <Button onClick={handleClick} className={cn(className, 'w-full md:w-fit')}>
       <action.icon className="mr-2 text-lg" />
       {action.button_text}
       {/* <ArrowRight className="w-4 h-4 ml-2" /> */}
