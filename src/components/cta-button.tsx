@@ -16,7 +16,13 @@ export function CTAButton({ className }: { className?: string }) {
   }
 
   return (
-    <Button onClick={handleClick} className={cn(className, 'w-full md:w-fit')}>
+    <Button
+      onClick={handleClick}
+      className={cn(
+        className,
+        'bg-primary-foreground text-primary hover:bg-primary-foreground/90 w-full md:w-fit',
+      )}
+    >
       <action.icon className="mr-2 text-lg" />
       {action.button_text}
       {/* <ArrowRight className="w-4 h-4 ml-2" /> */}

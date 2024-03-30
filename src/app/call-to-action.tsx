@@ -16,7 +16,7 @@ export function CallToAction() {
         </h1>
       </div>
 
-      <CTAButton className="bg-primary-foreground text-primary hover:bg-primary-foreground/90" />
+      <CTAButton />
     </Section>
   )
 }
