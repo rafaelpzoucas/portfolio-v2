@@ -14,7 +14,7 @@ export function Cover() {
           <strong>Que Converte</strong>
         </h1>
         <p className="text-muted-foreground text-center">
-          Do clique à conversão: Transforme visitantes em clientes com
+          Do clique à conversão, transforme visitantes em clientes com
           facilidade.
         </p>
       </div>
