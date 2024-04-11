@@ -8,7 +8,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Rafael Zoucas | Desenvolvedor de Landing Pages',
+  title: 'Rafael Zoucas | Desenvolvedor',
   description:
     'Desenvolvedor de Landing Pages e Websites Profissionais: Converta leads e aumente suas vendas com páginas de vendas eficazes. Desenvolvimento de sites personalizados para empresas, especializado na criação de páginas de vendas profissionais. Confira nossos serviços de desenvolvimento de website e landing page para uma presença online impactante. Sua empresa merece um site que converta. Entre em contato com o desenvolvedor de site profissional para criar a sua página de vendas agora mesmo.',
 }
