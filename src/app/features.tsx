@@ -15,7 +15,7 @@ export function Features() {
               key={solution.title}
               className="flex flex-col sm:flex-row gap-4 sm:gap-8 w-full"
             >
-              <div className="flex items-center justify-center w-20 h-20 aspect-square rounded-lg bg-secondary">
+              <div className="flex items-center justify-center w-20 h-20 min-w-[80px] aspect-square rounded-lg bg-secondary">
                 <solution.icon className="w-10 h-10 text-primary" />
               </div>
               <aside className="flex flex-col gap-1">
